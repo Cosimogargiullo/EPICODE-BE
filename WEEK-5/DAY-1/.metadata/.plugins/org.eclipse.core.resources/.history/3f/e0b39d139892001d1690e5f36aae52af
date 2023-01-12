@@ -1,0 +1,28 @@
+package it.epicode.Giorno1;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		Scanner Creation
+		Scanner i = new Scanner(System.in);
+		
+//		RECTANGLE BASE ---------------------------
+		System.out.println("To");
+		String n = i.nextLine();
+		
+//		Second String
+		System.out.println("Type your surname:");
+		String s = i.nextLine();
+		
+//		Third String
+		System.out.println("Type your favourite hobby:");
+		String h = i.nextLine();
+		
+
+
+	}
+
+}

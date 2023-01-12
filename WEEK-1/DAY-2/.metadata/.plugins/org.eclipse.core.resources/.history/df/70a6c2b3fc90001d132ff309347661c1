@@ -1,0 +1,9 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Operatore o1 = new Operatore(327895677);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package it.epicode.Giorno3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+//	COUNT REVERS
+	public static void backCount(int n) {
+		for (int i = n; i >= n; i--) {
+			System.out.println(i);
+		}
+	}
+}

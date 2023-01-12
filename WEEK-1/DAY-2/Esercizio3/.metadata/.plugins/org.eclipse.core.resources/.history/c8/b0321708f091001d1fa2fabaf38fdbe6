@@ -1,0 +1,36 @@
+package it.epicode.Giorno3;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		spelling();
+	}
+
+//	SCANNER
+	public static void spelling() {
+
+		Scanner in = new Scanner(System.in);
+		System.out.println( "inserisci una parola:" );
+		
+		String word = in.nextLine();
+		String[] sWord = word.split("");
+		
+		String sString = null;
+		for (int i=0; i < sWord.length; i++) {
+			if (sString == null) {
+				sString = sWord[i];
+			} else {
+				sString = sWord[i] + ", ";
+			}
+			System.out.println(sWord[i]);
+		}
+		
+		in.close();
+	}
+
+}
+
+/* Scrivere un programma che chiede di inserire una stringa e la suddivida in caratteri separati dalla virgola. Il
+programma si ripete fino a che l'utente non inserisce la stringa ":q" */

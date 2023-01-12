@@ -1,0 +1,25 @@
+package it.epicode.Giorno3;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		spelling();
+	}
+
+//	SCANNER
+	public static void spelling() {
+
+		Scanner in = new Scanner(System.in);
+		System.out.println( "inserisci parola: " );
+		String word = in.nextLine();
+		
+		while( word != ":q") {
+			in = new Scanner(System.in);
+			System.out.println( "inserisci parola: " );
+		}
+		in.close();
+	}
+
+}

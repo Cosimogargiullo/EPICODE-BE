@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println(stringaPariDispari("ciao"));
+	}
+	
+//	PARI O DISPARI
+	public static boolean stringaPariDispari(String s) {
+		if (s.length() %2 == 0) {
+			return true;
+		}
+		return false;
+	}
+
+}

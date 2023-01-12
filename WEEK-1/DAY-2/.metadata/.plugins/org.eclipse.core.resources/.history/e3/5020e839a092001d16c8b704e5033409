@@ -1,0 +1,23 @@
+
+public class Operatore {
+
+//	Properties
+	double n;
+	double c;
+	int l;
+	
+//	Constructor 
+	public Operatore(double n) {
+		this.n = n;
+		this.c = 0;
+		this.l = 0;
+	}
+	
+//	Methods
+	
+//	Print
+	public String printO() {
+		return "Your number is: " + this.n + " your credit is " + this.c + "your last 5 calls are " + this.l;
+	}
+	
+}

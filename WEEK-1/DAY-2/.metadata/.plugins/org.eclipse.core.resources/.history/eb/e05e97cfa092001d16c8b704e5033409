@@ -1,0 +1,12 @@
+
+public class Sim {
+private Strins numeroTelefono;
+private double creditoDisponibile;
+private Chiamata[] listachiamate;
+
+public Sim(String numero) {
+this. numeroTelefono = numero;
+this.creditoDisponibile = 0;
+this.listachiamate = new Chiamata[5];
+}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-1/Esercizio0/EpicodeBackendCourse1/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-1/Esercizio1/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-1/Esercizio2/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-1/Esercizio3/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio1/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio2/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio3/Esercizio1/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio3/Esercizio2/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio3/Esercizio3/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio3/Esercizio4/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-2/Esercizio3/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-3/Esercizio1/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-3/Esercizio2/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-3/Esercizio3/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-3/Esercizio4/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-3/Ok/src"/>
+	<classpathentry kind="src" path="WEEK-1/DAY-4/Esercizio1/src"/>
+	<classpathentry kind="output" path="WEEK-1/DAY-1/Esercizio0/EpicodeBackendCourse1/bin"/>
+</classpath>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/cosimogargiullo/eclipse-workspace/Epicode/Settimana-1/S1-E2/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3336517913.index
+1607887011.index
+684808245.index

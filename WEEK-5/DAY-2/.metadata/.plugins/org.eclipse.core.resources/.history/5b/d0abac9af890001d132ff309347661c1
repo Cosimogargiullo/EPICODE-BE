@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Rettangolo r1 = new Rettangolo(10,5);
+		
+		System.out.println(r1.area(0, 0));
+		System.out.println(r1.perimeter(0, 0));
+		System.out.println(r1.printR(0, 0));
+//		System.out.println(r1.area(0, 0));
+	}
+
+}

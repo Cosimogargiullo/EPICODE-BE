@@ -1,0 +1,39 @@
+package it.epicode.Giorno3;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		VARIABLES
+		String word = null;
+		String sString = null;
+
+//		WHILE LOOP
+		do {
+//			Scanner. Data memorize
+			Scanner in = new Scanner(System.in);
+			System.out.println("inserisci una parola:");
+			word = in.nextLine();
+			
+//			Splitting the words
+			String[] sWord = word.split("");
+
+			for (int i = 0; i < sWord.length; i++) {
+				if (sString == null) {
+					sString = sWord[i];
+				} else {
+					sString += ", " + sWord[i];
+				}
+			}
+
+			System.out.println(sString);
+		} while (!":q".equals(word));
+	}
+}
+
+/*
+ * Scrivere un programma che chiede di inserire una stringa e la suddivida in
+ * caratteri separati dalla virgola. Il programma si ripete fino a che l'utente
+ * non inserisce la stringa ":q"
+ */

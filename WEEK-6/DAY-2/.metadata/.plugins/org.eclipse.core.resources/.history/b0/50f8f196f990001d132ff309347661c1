@@ -1,0 +1,32 @@
+
+public class Rettangolo {
+
+//	Properties
+	double h;
+	double w;
+
+//	Constructor
+	public Rettangolo(double h, double w) {
+		this.h = h;
+		this.w = w;
+	}
+
+//	Methods
+	
+//	Perimeter
+	public double perimeter() {
+		return (this.h*2)+(this.w*2);
+	}
+
+//	Area
+	public double area() {
+		return this.h*this.w;
+	}
+	
+//	PrintRectangle
+	public String printR() {
+		return "The area of your rectangle is " + this.area() + " and the perimeter is " + this.perimeter();
+	}
+
+	
+}

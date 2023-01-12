@@ -1,0 +1,62 @@
+package it.epicode.Giorno1;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+//		Scanner creation
+		Scanner i = new Scanner(System.in);
+
+//		RECTANGLE BASE
+		System.out.println("To calculate the perimetr of a rectangle, please type the base");
+		double perA = i.nextDouble();
+//		Rectangle height
+		System.out.println("Please type the height");
+		double perB = i.nextDouble();
+//		Calling the method Per
+		System.out.println("the perimeter of your rectangle is " + per(perA, perB));
+
+//		EVENODD
+		System.out.println(
+				"Please type a number and if tre result is 0 your number is even, if it's 1 your number is odd");
+		int n = i.nextInt();
+//		Calling the method EvenOdd
+		System.out.println(eOdd(n));
+
+		// TRIANGLE AREA
+		System.out.println("To calculate the area of a Triangle, please type the side a");
+		double sA = i.nextDouble();
+//		Side b
+		System.out.println("Please type the side b");
+		double sB = i.nextDouble();
+//		Side c
+		System.out.println("Please type the side c");
+		double sC = i.nextDouble();
+//		Calling the method Triangle Area
+		System.out.println("the area of your Triangle is " + tArea(sA, sB, sC));
+
+		i.close();
+	}
+
+	// METHODS
+
+	// Per method
+	static double per(double a, double b) {
+		return (a * 2) + (b * 2);
+	}
+
+//	EvenOdd method 
+	static int e0dd(int n) {
+		if (n % 2 == 0) {
+			return 0;
+		}
+		return 1;
+	}
+
+//	Triangle area
+	static double tArea(double a, double b, double c) {
+	return Math.sqrt((a + b + c) * (-a + b + c) * (a - b + c) * (a + b - c)) / 4;
+	}
+}

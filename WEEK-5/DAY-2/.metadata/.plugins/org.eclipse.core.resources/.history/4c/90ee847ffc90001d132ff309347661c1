@@ -1,0 +1,15 @@
+
+public class Operatore {
+
+//	Properties
+	int n;
+	double c;
+	int l;
+	
+//	Constructor 
+	public Operatore(int n) {
+		this.n = n;
+		this.c = 0;
+		this.l = 0;
+	}
+}

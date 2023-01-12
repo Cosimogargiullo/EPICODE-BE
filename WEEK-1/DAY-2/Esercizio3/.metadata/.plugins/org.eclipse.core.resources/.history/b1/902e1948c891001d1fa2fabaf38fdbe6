@@ -1,0 +1,26 @@
+package it.epicode.Giorno3;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	}
+
+//	STAMPA COMPRESO TRA 0-3
+//	public static String print(int n) {
+//		switch (n) {
+//		case 0: 
+//			return "zero";
+//			break;
+//		case 1:
+//			return "uno";
+//			break;
+//		case 2:
+//			return "due";
+//			break;
+//		case 3:
+//			return "tre";
+//			break;
+//		}
+//	}
+}

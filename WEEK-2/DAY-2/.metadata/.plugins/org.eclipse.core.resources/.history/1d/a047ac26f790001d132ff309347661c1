@@ -1,0 +1,26 @@
+
+public class Rettangolo {
+
+//	Properties
+	double h;
+	double w;
+
+//	Constructor
+	public Rettangolo(double h, double w) {
+		this.h = h;
+		this.w = w;
+	}
+
+//	Methods
+	
+//	Perimeter
+	public double perimeter(double h, double w) {
+		return (h*2)+(w*2);
+	}
+
+//	Area
+	public double area() {
+		return 1;
+	}
+
+}
