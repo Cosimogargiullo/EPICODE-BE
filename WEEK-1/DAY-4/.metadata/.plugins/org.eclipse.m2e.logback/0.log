@@ -36,3 +36,5 @@ java.io.FileNotFoundException: /Users/cosimogargiullo/eclipse-workspace/EPICODE/
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-01-12 20:37:55,493 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-01-12 22:17:48,518 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
