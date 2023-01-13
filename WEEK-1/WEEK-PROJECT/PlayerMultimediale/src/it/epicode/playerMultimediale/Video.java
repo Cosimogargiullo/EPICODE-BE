@@ -22,6 +22,7 @@ public class Video extends Registrazione {
 	}
 	@Override
 	public void play() {
-		System.out.println("Vid, " + getTitolo() + " " + "!".repeat(this.getVolume()) + "" + "*".repeat(this.luminosita));
-	}
+		for (int i = 1; i <= getDurata(); i++) {
+			System.out.println( i + "  Hai eseguito l'elemento nome: " + getTitolo() + " volume: " + "!".repeat(this.getVolume()) + " durata: " + getDurata() + "s" + " luminosita: " + "*".repeat(this.luminosita));
+		};	}
 }

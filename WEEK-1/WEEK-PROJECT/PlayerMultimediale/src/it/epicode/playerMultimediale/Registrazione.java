@@ -40,7 +40,9 @@ public class Registrazione extends ElementoMultimediale implements Riproducibile
 		play();
 	}
 	public void play() {
-		System.out.println("Reg, " + getTitolo() + " " + "!".repeat(this.volume));
+		for (int i = 1; i <= durata; i++) {
+			System.out.println( i + "  Hai eseguito l'elemento nome: " + getTitolo() + " volume: " + "!".repeat(this.volume) + " durata: " + this.durata + "s");
+		};
 	}
 
 }
