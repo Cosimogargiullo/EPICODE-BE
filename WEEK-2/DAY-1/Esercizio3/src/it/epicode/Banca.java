@@ -1,6 +1,12 @@
 package it.epicode;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Banca {
+	
+	private static final Logger logger = LoggerFactory.getLogger (Banca.class);
+	
 	public static void main(String args[]) {
 		ContoCorrente conto1 = new ContoCorrente("Grossi Mario", 20000.0);
 
@@ -11,7 +17,7 @@ public class Banca {
 
 			System.out.println("Saldo conto: " + conto1.restituisciSaldo());
 		} catch (BancaException e) {
-			System.out.println("Errore durante il prelievo: " + e);
+			logger.error("Errore durante il prelievo: " + e, e);
 			e.printStackTrace();
 		}
 
@@ -25,7 +31,7 @@ public class Banca {
 			conto2.stampaSaldo();
 
 		} catch (BancaException e) {
-			System.out.println("Errore durante il prelievo: " + e);
+			logger.error("Errore durante il prelievo: " + e);
 			e.printStackTrace();
 		}
 	}
