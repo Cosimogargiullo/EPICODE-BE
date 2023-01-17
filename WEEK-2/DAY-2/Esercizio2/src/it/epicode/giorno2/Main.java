@@ -10,10 +10,10 @@ public class Main {
 	public static void main(String[] args) {
 
 //		System.out.println(oList(3));
-		System.out.println(oListInverted(oList(3)));
-		ArrayList<Integer> f = oList(10);
+		ArrayList<Integer> f = oList(9);
+		System.out.println(oListInverted(f));
 		System.out.println(f);
-		bList(f, false);
+		bList(f, true);
 	}
 
 //	Function accept int and return list of casual int
@@ -22,6 +22,7 @@ public class Main {
 		for (int i = 0; i < n; i++) {
 			l.add((int) Math.floor(Math.random() * 101));
 		}
+		Collections.sort(l);
 		return l;
 	}
 
