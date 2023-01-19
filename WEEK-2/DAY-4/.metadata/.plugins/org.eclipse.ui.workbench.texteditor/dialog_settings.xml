@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="getSti"/>
 		<list key="findhistory">
+			<item value="Loc"/>
 			<item value="d1.getMatricola();"/>
 			<item value="getsti"/>
 			<item value="enu"/>

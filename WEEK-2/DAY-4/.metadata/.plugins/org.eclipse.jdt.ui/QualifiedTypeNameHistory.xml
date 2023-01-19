@@ -3,4 +3,11 @@
     <fullyQualifiedTypeName name="it.epicode.G4.Dipartimento"/>
     <fullyQualifiedTypeName name="it.epicode.G4.Livello"/>
     <fullyQualifiedTypeName name="it.epicode.G4.Dipendente"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 </qualifiedTypeNameHistroy>
