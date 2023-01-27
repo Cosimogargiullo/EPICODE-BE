@@ -3,4 +3,17 @@
     <fullyQualifiedTypeName name="it.epicode.G4.Dipartimento"/>
     <fullyQualifiedTypeName name="it.epicode.G4.Livello"/>
     <fullyQualifiedTypeName name="it.epicode.G4.Dipendente"/>
+    <fullyQualifiedTypeName name="entities.Student"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="it.epicode.be.gestioneventi.model.GenereConcerto"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="it.epicode.be.gestioneventi.model.Persona"/>
+    <fullyQualifiedTypeName name="it.epicode.be.gestioneventi.model.Concerto"/>
+    <fullyQualifiedTypeName name="it.epicode.be.gestioneventi.model.PartitaDiCalcio"/>
 </qualifiedTypeNameHistroy>
