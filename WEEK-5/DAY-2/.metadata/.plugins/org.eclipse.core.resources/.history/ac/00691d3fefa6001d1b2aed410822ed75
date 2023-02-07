@@ -1,0 +1,6 @@
+package it.epicode.be.godfather.config;
+
+public class OrdineConfig {
+
+	private MenuConfig menu = new MenuConfig();
+}

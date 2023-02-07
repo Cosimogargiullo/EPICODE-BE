@@ -1,0 +1,12 @@
+package it.epicode.be.godfather.model;
+
+import java.util.List;
+
+public class Ordine {
+
+	private int idOrdine;
+	private Tavolo tavolo;
+	private List<MenuItem> menuItem;
+	private StatoOrdine statoOrdine;
+	
+}

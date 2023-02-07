@@ -1,0 +1,10 @@
+package it.epicode.be.godfather.config;
+
+import it.epicode.be.godfather.GestioneMenu;
+
+public class OrdineConfig {
+	
+	private GestioneMenu menu = new GestioneMenu();
+	
+	
+}

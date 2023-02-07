@@ -1,0 +1,13 @@
+package it.epicode.be.godfather.config;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import it.epicode.be.godfather.model.Menu;
+
+public class OrdineConfig {
+
+	ctx = new AnnotationConfigApplicationContext(MenuConfig.class);
+	menu = (Menu) ctx.getBean("menu");
+	
+	
+}

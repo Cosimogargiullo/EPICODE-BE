@@ -1,0 +1,17 @@
+package it.epicode.be.godfather.model;
+
+import java.util.List;
+
+import javax.print.attribute.standard.DateTimeAtCreation;
+
+public class Ordine {
+
+	private int idOrdine;
+	private Tavolo tavolo;
+	private List<MenuItem> menuItem;
+	private StatoOrdine statoOrdine;
+	private int numeroCoperti;
+	private DateTimeAtCreation oraCreazione;
+	private double costoTot;
+	
+}

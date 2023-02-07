@@ -2,4 +2,19 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="school.objects.Student"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.GestioneMenu"/>
+    <fullyQualifiedTypeName name="org.springframework.core.annotation.Order"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCreation"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.StatoOrdine"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.Ordine"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.config.OrdineConfig"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.MenuItem"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.Tavolo"/>
 </qualifiedTypeNameHistroy>

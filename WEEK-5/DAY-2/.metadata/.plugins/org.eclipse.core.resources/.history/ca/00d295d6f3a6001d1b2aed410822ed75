@@ -1,0 +1,18 @@
+package it.epicode.be.godfather.config;
+
+import org.springframework.context.annotation.Bean;
+
+import it.epicode.be.godfather.GestioneMenu;
+import it.epicode.be.godfather.model.Ordine;
+
+
+public class OrdineConfig {
+	
+	@Bean
+	public Ordine ordine() {
+		Ordine ordine = new Ordine();
+		return ordine
+	}
+	
+	
+}

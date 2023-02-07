@@ -1,0 +1,46 @@
+package it.epicode.be.godfather;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import it.epicode.be.godfather.config.MenuConfig;
+import it.epicode.be.godfather.config.OrdineConfig;
+import it.epicode.be.godfather.model.Menu;
+import it.epicode.be.godfather.model.MenuItem;
+import it.epicode.be.godfather.model.Ordine;
+
+public class GestioneOrdini {
+
+	private Ordine ordine;
+	private AnnotationConfigApplicationContext ctx;
+
+	public GestioneOrdini() {
+		ctx = new AnnotationConfigApplicationContext(OrdineConfig.class);
+		ordine = (Ordine) ctx.getBean("ordine");
+		createdOrdini(ordine);
+	}
+	
+	public void stampaOrdini() {
+		System.out.println("******* Ordine *******");
+		System.out.println("PRODOTTI");
+		ordine.getMenuItems().forEach(e -> System.out.println(e));
+		System.out.println(ordine.getMenuItems());
+//		menu.getMenuPizza().forEach(p -> System.out.println(p.getMenuItemLine()));
+//		System.out.println();
+//
+//		System.out.println("DRINK");
+//		menu.getMenuDrink().forEach(p -> System.out.println(p.getMenuItemLine()));
+//
+//		System.out.println();
+//
+//		System.out.println("FRANCHISE");
+//		menu.getMenuFranchise().forEach(p -> System.out.println(p.getMenuItemLine()));
+
+	}
+	public void createdOrdini(Ordine o) {
+		GestioneMenu menu = new GestioneMenu();
+		o.setMenuItems(menu.getMenu().getMenuPizza().get(0).getName(),"Mozzarella di bufala");
+		o.setMenuItems(menu.getMenu().getMenuPizza().get(2).getName(),"");
+		o.setMenuItems(menu.getMenu().getMenuDrink().get(0).getName(),"Con Ghiaccio");
+		o.setMenuItems(menu.getMenu().getMenuDrink().get(0).getName(),"Senza Ghiaccio");
+	}
+}

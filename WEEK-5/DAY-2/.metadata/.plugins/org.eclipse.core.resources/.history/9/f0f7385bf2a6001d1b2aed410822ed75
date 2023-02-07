@@ -1,0 +1,26 @@
+package it.epicode.be.godfather.model;
+
+import java.time.LocalDateTime;
+import java.util.HashMap;
+import java.util.List;
+
+import javax.print.attribute.standard.DateTimeAtCreation;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class Ordine {
+
+	private int idOrdine;
+	private Tavolo tavolo;
+	private HashMap<MenuItem, String> menuItems;
+	private StatoOrdine statoOrdine;
+	private int numeroCoperti;
+	private LocalDateTime oraCreazione = LocalDateTime.now();
+	private double costoTot;
+	
+}
