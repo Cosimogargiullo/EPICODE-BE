@@ -1,0 +1,610 @@
+"2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 78918 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 3.963 seconds (JVM running for 4.736)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 80890 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+""2023-02-09 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - table "pizze" does not exist, skipping
+""2023-02-09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.808 seconds (JVM running for 5.576)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 80909 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.337 seconds (JVM running for 4.933)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 81387 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 5.515 seconds (JVM running for 7.025)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 81579 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+""2023-02-09 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-09 [main] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at it.epicode.be.godfather.GodFatherPizzaApplication.main(GodFatherPizzaApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.hibernate.persister.entity.UnionSubclassEntityPersister.<init>(UnionSubclassEntityPersister.java:82)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+"2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 81784 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+""2023-02-09 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-09 [main] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at it.epicode.be.godfather.GodFatherPizzaApplication.main(GodFatherPizzaApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.hibernate.persister.entity.UnionSubclassEntityPersister.<init>(UnionSubclassEntityPersister.java:82)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+"2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 81819 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+""2023-02-09 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-09 [main] ERROR o.s.boot.SpringApplication - Application run failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at it.epicode.be.godfather.GodFatherPizzaApplication.main(GodFatherPizzaApplication.java:10)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.hibernate.MappingException: Cannot use identity column key generation with <union-subclass> mapping for: it.epicode.be.godfather.model.PizzaBase
+	at org.hibernate.persister.entity.UnionSubclassEntityPersister.<init>(UnionSubclassEntityPersister.java:82)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 20 common frames omitted
+"2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 81902 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.625 seconds (JVM running for 5.292)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 82627 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110 ms. Found 1 JPA repository interfaces.
+""2023-02-09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-09 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 5.028 seconds (JVM running for 5.749)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 86332 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.443 seconds (JVM running for 5.052)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 86444 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.597 seconds (JVM running for 5.264)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 86641 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.655 seconds (JVM running for 5.349)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 86729 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 4.788 seconds (JVM running for 5.455)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 86901 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87032 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 5.881 seconds (JVM running for 6.684)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87190 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 6.577 seconds (JVM running for 7.814)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87241 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 6.681 seconds (JVM running for 7.75)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87311 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 6.035 seconds (JVM running for 6.905)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87450 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 6.533 seconds (JVM running for 7.483)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87618 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 7.232 seconds (JVM running for 8.328)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87673 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 8.663 seconds (JVM running for 9.798)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87770 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 87868 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 5.534 seconds (JVM running for 6.592)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 88137 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 6.18 seconds (JVM running for 7.47)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Starting GodFatherPizzaApplication using Java 17.0.5 on Cosimos-Air with PID 88592 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-5/DAY-4/GodFatherPizza)
+""2023-02-09 [main] DEBUG i.e.b.g.GodFatherPizzaApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - No active profile set, falling back to default profiles: default
+""2023-02-09 [main] INFO  i.e.b.g.GodFatherPizzaApplication - Started GodFatherPizzaApplication in 5.417 seconds (JVM running for 6.441)
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - ****** ORDINE ******
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero ordine: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero coperti: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Numero Tavolo: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Stato ordine: IN_CORSO
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Margherita (tomato, cheese) - Quantità: 3
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Hawaiian (tomato, cheese, ham, pineapple) - Cheese - Ham - Quantità: 2
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Pizza Salami (tomato, cheese, salami) - Cheese - Ham - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Lemonade - Quantità: 1
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - 
+""2023-02-09 [main] INFO  it.epicode.be.godfather.MenuRunner - Totale €: 48.449999999999996
+"

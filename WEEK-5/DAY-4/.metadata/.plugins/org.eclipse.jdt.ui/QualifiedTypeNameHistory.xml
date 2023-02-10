@@ -3,4 +3,24 @@
     <fullyQualifiedTypeName name="it.epicode.G4.Dipartimento"/>
     <fullyQualifiedTypeName name="it.epicode.G4.Livello"/>
     <fullyQualifiedTypeName name="it.epicode.G4.Dipendente"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.InheritanceType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.DAO.PizzaService"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.PizzaBase"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.config.MenuConfig"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.MappedSuperclass"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.PizzaSalami"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.PizzaHawaiian"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.Pizza"/>
+    <fullyQualifiedTypeName name="it.epicode.be.godfather.model.PizzaMargherita"/>
 </qualifiedTypeNameHistroy>
