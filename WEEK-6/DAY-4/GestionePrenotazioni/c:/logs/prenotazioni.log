@@ -1,0 +1,454 @@
+"2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93127 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 265 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5487 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cd19b8df-6f6f-45ad-b388-4b9e825b3a99
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@634d3439, org.springframework.security.web.context.SecurityContextPersistenceFilter@53016c98, org.springframework.security.web.header.HeaderWriterFilter@57f83c82, org.springframework.security.web.csrf.CsrfFilter@642d34f1, org.springframework.security.web.authentication.logout.LogoutFilter@2fce8243, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@626b9092, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@52fe87e0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@44e0c3d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3b29d36c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4db4431b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f641fb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71891d6b, org.springframework.security.web.session.SessionManagementFilter@69d1ad64, org.springframework.security.web.access.ExceptionTranslationFilter@2696b687, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@acea29e]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 14.949 seconds (JVM running for 16.184)
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93183 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 229 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5973 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: b331a083-8d9d-4a01-8b61-e9929e187c7b
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44e0c3d, org.springframework.security.web.context.SecurityContextPersistenceFilter@296a71df, org.springframework.security.web.header.HeaderWriterFilter@7a600e21, org.springframework.security.web.csrf.CsrfFilter@49b180c8, org.springframework.security.web.authentication.logout.LogoutFilter@52fe87e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ac2829e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@37393dab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71891d6b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d641499, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52849956, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69dc7b24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ce41f1f, org.springframework.security.web.session.SessionManagementFilter@458b4487, org.springframework.security.web.access.ExceptionTranslationFilter@ea45a5b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@772bc4c9]
+""2023-02-16 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2023-02-16 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-16 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93230 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 253 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5590 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a802f297-aef0-41e5-95c5-694318a432c0
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44e0c3d, org.springframework.security.web.context.SecurityContextPersistenceFilter@296a71df, org.springframework.security.web.header.HeaderWriterFilter@7a600e21, org.springframework.security.web.csrf.CsrfFilter@49b180c8, org.springframework.security.web.authentication.logout.LogoutFilter@52fe87e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ac2829e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@37393dab, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71891d6b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d641499, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52849956, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69dc7b24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ce41f1f, org.springframework.security.web.session.SessionManagementFilter@458b4487, org.springframework.security.web.access.ExceptionTranslationFilter@ea45a5b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@772bc4c9]
+""2023-02-16 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2023-02-16 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-16 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93422 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 223 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5815 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5af98740-683c-482e-8003-b04d058496bb
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b82f62a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f641fb7, org.springframework.security.web.header.HeaderWriterFilter@4db4431b, org.springframework.security.web.csrf.CsrfFilter@3e170abe, org.springframework.security.web.authentication.logout.LogoutFilter@4bac0be5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7aa1fb0e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@368d51ca, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67e21ea2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56820446, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@297454f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e5a2b74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2184962c, org.springframework.security.web.session.SessionManagementFilter@ab94a32, org.springframework.security.web.access.ExceptionTranslationFilter@53016c98, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ac2829e]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 15.249 seconds (JVM running for 16.312)
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93828 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93824 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 454 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 429 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8182 ms
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8298 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+""2023-02-16 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "fkab01tpigud21ji6m2x55mx2nu" of relation "edificio" does not exist, skipping
+""2023-02-16 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+""2023-02-16 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - drop cascades to constraint fkab01tpigud21ji6m2x55mx2nu on table edificio
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1732018b-6105-4900-8bd5-33cf5c1c11ab
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bd28e4a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5002be8e, org.springframework.security.web.header.HeaderWriterFilter@2b06f498, org.springframework.security.web.csrf.CsrfFilter@394331a8, org.springframework.security.web.authentication.logout.LogoutFilter@52849956, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@325e03b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ab94a32, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@55e88bc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@eabecf5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@642d34f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62732be7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@544300a6, org.springframework.security.web.session.SessionManagementFilter@7b24d5e4, org.springframework.security.web.access.ExceptionTranslationFilter@4797023d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fcfe065]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 22.362 seconds (JVM running for 24.677)
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 08371811-994a-4243-8b45-bb391be10c8a
+
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57806346, org.springframework.security.web.context.SecurityContextPersistenceFilter@155318b5, org.springframework.security.web.header.HeaderWriterFilter@55821edf, org.springframework.security.web.csrf.CsrfFilter@69d61a6f, org.springframework.security.web.authentication.logout.LogoutFilter@6956eb58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ce41f1f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7fff419d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40416321, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@201b52f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bf94e91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@755009f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ab70d34, org.springframework.security.web.session.SessionManagementFilter@658098a2, org.springframework.security.web.access.ExceptionTranslationFilter@602b7944, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b29d36c]
+""2023-02-16 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2023-02-16 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-16 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 93893 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 184 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4981 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 52d2553a-8d8a-4cb8-9880-03d182674cc9
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d641499, org.springframework.security.web.context.SecurityContextPersistenceFilter@458b4487, org.springframework.security.web.header.HeaderWriterFilter@ea45a5b, org.springframework.security.web.csrf.CsrfFilter@39fb5ddf, org.springframework.security.web.authentication.logout.LogoutFilter@73818435, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4bcf08ae, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2fce8243, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@634d3439, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e25282d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@296a71df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70273633, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44e0c3d, org.springframework.security.web.session.SessionManagementFilter@7a600e21, org.springframework.security.web.access.ExceptionTranslationFilter@759b05d1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@554e9509]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 13.261 seconds (JVM running for 14.116)
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 94182 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 231 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5310 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cef1fa52-8f57-4f48-a4e2-a0bdc5df230e
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ce41f1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@52849956, org.springframework.security.web.header.HeaderWriterFilter@458b4487, org.springframework.security.web.csrf.CsrfFilter@6f740044, org.springframework.security.web.authentication.logout.LogoutFilter@4866a755, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4946dfde, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1361e880, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@56820446, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@44e0c3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70273633, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@602b7944, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2259d54f, org.springframework.security.web.session.SessionManagementFilter@296a71df, org.springframework.security.web.access.ExceptionTranslationFilter@7a600e21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34ea86ff]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 13.708 seconds (JVM running for 14.877)
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 66 ms
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 7060 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 124 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3256 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 61297e6d-fea3-4f06-99e7-1a86d50be005
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b29d36c, org.springframework.security.web.context.SecurityContextPersistenceFilter@69d1ad64, org.springframework.security.web.header.HeaderWriterFilter@2696b687, org.springframework.security.web.csrf.CsrfFilter@5002be8e, org.springframework.security.web.authentication.logout.LogoutFilter@5036a286, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34ea86ff, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73818435, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@d641499, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b74a67a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53016c98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ab94a32, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@634d3439, org.springframework.security.web.session.SessionManagementFilter@57f83c82, org.springframework.security.web.access.ExceptionTranslationFilter@69d61a6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e2d9923]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 8.215 seconds (JVM running for 9.068)
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 7418 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-4/GestionePrenotazioni)
+""2023-02-16 [main] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 5 JPA repository interfaces.
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3348 ms
+""2023-02-16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-16 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: aa381146-4471-4a46-bdd7-12c6f7d75f79
+
+""2023-02-16 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56820446, org.springframework.security.web.context.SecurityContextPersistenceFilter@ab94a32, org.springframework.security.web.header.HeaderWriterFilter@53016c98, org.springframework.security.web.csrf.CsrfFilter@62732be7, org.springframework.security.web.authentication.logout.LogoutFilter@1361e880, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77972964, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3506bc8b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2259d54f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71891d6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f641fb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f8d4b51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b82f62a, org.springframework.security.web.session.SessionManagementFilter@4db4431b, org.springframework.security.web.access.ExceptionTranslationFilter@69d1ad64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bcf08ae]
+""2023-02-16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2023-02-16 [main] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 8.379 seconds (JVM running for 9.029)
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-16 [main] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-16 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-16 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-16 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"

@@ -1,0 +1,103 @@
+"2023-02-15 [restartedMain] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 51424 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-2/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-2/GestionePrenotazioni)
+""2023-02-15 [restartedMain] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-15 [restartedMain] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-02-15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-02-15 [restartedMain] INFO  i.e.b.p.GestionePrenotazioniApplication - Starting GestionePrenotazioniApplication using Java 17.0.5 on Cosimos-Air with PID 51428 (/Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-2/GestionePrenotazioni/target/classes started by cosimogargiullo in /Users/cosimogargiullo/eclipse-workspace/EPICODE-BE/WEEK-6/DAY-2/GestionePrenotazioni)
+""2023-02-15 [restartedMain] DEBUG i.e.b.p.GestionePrenotazioniApplication - Running with Spring Boot v2.4.5, Spring v5.3.6
+""2023-02-15 [restartedMain] INFO  i.e.b.p.GestionePrenotazioniApplication - No active profile set, falling back to default profiles: default
+""2023-02-15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2023-02-15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2023-02-15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 371 ms. Found 6 JPA repository interfaces.
+""2023-02-15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2023-02-15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 396 ms. Found 6 JPA repository interfaces.
+""2023-02-15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+""2023-02-15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9034 ms
+""2023-02-15 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-15 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-15 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9090 (http)
+""2023-02-15 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2023-02-15 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2023-02-15 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2023-02-15 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10084 ms
+""2023-02-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-15 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2023-02-15 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2023-02-15 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2023-02-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2023-02-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2023-02-15 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2023-02-15 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-15 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2023-02-15 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2023-02-15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-15 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2023-02-15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-15 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-15 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2023-02-15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2023-02-15 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a20541cf-16da-4516-82c2-f43b716d3017
+
+""2023-02-15 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2023-02-15 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25724219, org.springframework.security.web.context.SecurityContextPersistenceFilter@12fc75e2, org.springframework.security.web.header.HeaderWriterFilter@1e4d8d4, org.springframework.security.web.csrf.CsrfFilter@14e19eca, org.springframework.security.web.authentication.logout.LogoutFilter@40ee03cc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59053c0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b1594ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6672d789, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b92e1da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43b85aa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ff02f59, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2aa276ac, org.springframework.security.web.session.SessionManagementFilter@59e5fc63, org.springframework.security.web.access.ExceptionTranslationFilter@2e1a201e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b19ea27]
+""2023-02-15 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2023-02-15 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9090 (http) with context path ''
+""2023-02-15 [restartedMain] INFO  i.e.b.p.GestionePrenotazioniApplication - Started GestionePrenotazioniApplication in 24.867 seconds (JVM running for 27.104)
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Citta: Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Centrale - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Edificio: Sede Distaccata - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Centrale - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Centrale - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Centrale - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_1_Sede Distaccata - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_2_Sede Distaccata - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Postazione: P_3_Sede Distaccata - Roma
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Role: ROLE_ADMIN
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved Role: ROLE_USER
+""2023-02-15 [restartedMain] INFO  i.e.b.p.common.util.AppStartupRunner - Saved User: Mario Rossi
+""2023-02-15 [restartedMain] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 642b0c88-5eef-46b4-9831-2ffc0cc5ec34
+
+""2023-02-15 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37bb65b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@bd9521a, org.springframework.security.web.header.HeaderWriterFilter@46d22bec, org.springframework.security.web.csrf.CsrfFilter@29dc0cf, org.springframework.security.web.authentication.logout.LogoutFilter@16073b79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72a9e084, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f396ae7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3b45cab2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@66f50b66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61c99543, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a3daee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75255887, org.springframework.security.web.session.SessionManagementFilter@14e19eca, org.springframework.security.web.access.ExceptionTranslationFilter@2c5b21b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@528710a0]
+""2023-02-15 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+""2023-02-15 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-15 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-15 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2023-02-15 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2023-02-15 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2023-02-15 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+""2023-02-15 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2023-02-15 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2023-02-15 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2023-02-15 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2023-02-15 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2023-02-15 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2023-02-15 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+"
