@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.repository;
+package it.epicode.gestione.dispositivi.repository;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.common.security;
+package it.epicode.gestione.dispositivi.common.security;
 
 import java.util.Optional;
 
@@ -9,7 +9,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import it.epicode.gestione.dispositivi.models.User;
-import it.epicode.mobilemonitoring.repository.UserRepository;
+import it.epicode.gestione.dispositivi.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

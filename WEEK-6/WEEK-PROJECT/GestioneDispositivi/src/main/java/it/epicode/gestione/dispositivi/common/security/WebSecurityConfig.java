@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.common.security;
+package it.epicode.gestione.dispositivi.common.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

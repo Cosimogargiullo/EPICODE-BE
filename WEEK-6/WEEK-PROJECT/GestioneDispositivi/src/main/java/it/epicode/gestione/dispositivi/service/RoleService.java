@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.service;
+package it.epicode.gestione.dispositivi.service;
 
 import java.util.Optional;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 import it.epicode.gestione.dispositivi.exception.GestioneDispositiviException;
 import it.epicode.gestione.dispositivi.models.Role;
-import it.epicode.mobilemonitoring.repository.RoleRepository;
+import it.epicode.gestione.dispositivi.repository.RoleRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

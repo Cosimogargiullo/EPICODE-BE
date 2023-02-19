@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.common.security;
+package it.epicode.gestione.dispositivi.common.security;
 
 import java.util.Collection;
 import java.util.Date;

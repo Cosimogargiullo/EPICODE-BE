@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.controller;
+package it.epicode.gestione.dispositivi.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,92 +14,91 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import it.epicode.gestione.dispositivi.exception.GestioneDispositiviException;
-import it.epicode.gestione.dispositivi.models.DeviceType;
-import it.epicode.mobilemonitoring.service.DeviceTypeService;
+import it.epicode.gestione.dispositivi.models.Role;
+import it.epicode.gestione.dispositivi.models.User;
+import it.epicode.gestione.dispositivi.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @Slf4j
-@RequestMapping("/devicetype")
-public class DeviceTypeController {
+@RequestMapping("/user")
+public class UserController {
 
 	@Autowired
-	private DeviceTypeService deviceTypeService;
+	private UserService service;
+
+//	METODO GET BY ID
+	@GetMapping("/{id}")
+	public ResponseEntity<?> findById(@PathVariable Long id) {
+		Optional<User> obj = service.getById(id);
+		if (obj.isPresent()) {
+			return new ResponseEntity<>(obj.get(), HttpStatus.FOUND);
+		} else {
+			return new ResponseEntity("User con id: " + id + " non trovato!", HttpStatus.NOT_FOUND);
+		}
+	}
 
 //	METODO GET ALL
 	@GetMapping("/")
-	@PreAuthorize("hasRole('ADMIN') or hasRole('SYSADMIN') or hasRole('DEVELOPER')")
+	@PreAuthorize("hasRole('ADMIN')")
 	public ResponseEntity<?> findAll() {
-		List<DeviceType> listDeviceType = deviceTypeService.findAll();
-		if (listDeviceType.size() > 0) {
-			return new ResponseEntity(listDeviceType, HttpStatus.OK);
+		List<User> listUser = service.findAll();
+		if (listUser.size() > 0) {
+			return new ResponseEntity(listUser, HttpStatus.OK);
 		} else {
 			return new ResponseEntity("Lista vuota!", HttpStatus.NOT_FOUND);
 		}
 	}
 
-//	METODO GET BY ID
-	@GetMapping("/{id}")
-	@PreAuthorize("hasRole('ADMIN') or hasRole('SYSADMIN') or hasRole('DEVELOPER')")
-	public ResponseEntity<?> findById(@PathVariable Long id) {
-		Optional<DeviceType> obj = deviceTypeService.getById(id);
-		if (obj.isPresent()) {
-			return new ResponseEntity<>(obj.get(), HttpStatus.FOUND);
-		} else {
-			return new ResponseEntity("Device con id: " + id + " non trovato!", HttpStatus.NOT_FOUND);
-		}
-	}
-
 //	METODO PER INSERIRE UN OGGETTO
 	@PostMapping("/")
-	@PreAuthorize("hasRole('SYSADMIN')")
-	public ResponseEntity<?> insert(@RequestBody DeviceType objectToInsert) {
+	public ResponseEntity<?> insert(@RequestBody User obj) {
 		try {
-			objectToInsert = deviceTypeService.insert(objectToInsert);
-			return new ResponseEntity(objectToInsert, HttpStatus.CREATED);
+			obj = service.insert(obj);
+			return new ResponseEntity(obj, HttpStatus.CREATED);
 		} catch (GestioneDispositiviException e) {
-			log.error("Errore inserimento", e);
+			log.error("Errore nell'inserimento", e);
 			return new ResponseEntity(e.getMessage(), HttpStatus.CONFLICT);
 		}
+
 	}
 
 //	METODO PER AGGIORNARE UN OGGETTO
 	@PutMapping("/")
-	@PreAuthorize("hasRole('SYSADMIN')")
-	public ResponseEntity<?> update(@RequestBody DeviceType objectToUpdate) {
+	public ResponseEntity<?> update(@RequestBody User obj) {
 		try {
-			objectToUpdate = deviceTypeService.update(objectToUpdate, objectToUpdate.getId());
-			return new ResponseEntity<>(objectToUpdate, HttpStatus.OK);
+			obj = service.update(obj, obj.getId());
+			return new ResponseEntity<>(obj, HttpStatus.OK);
 		} catch (GestioneDispositiviException e) {
-			log.error("Errore inserimento", e);
+			log.error("Errore nell'inserimento", e);
 			return new ResponseEntity(e.getMessage(), HttpStatus.CONFLICT);
 		}
 	}
 
 //	METODO PER ELIMINARE UN OGGETTO
 	@DeleteMapping("/")
-	@PreAuthorize("hasRole('SYSADMIN')")
-	public ResponseEntity<?> delete(@RequestBody DeviceType objectToDelete) {
+	public ResponseEntity<?> delete(@RequestBody User obj) {
 		try {
-			deviceTypeService.deleteById(objectToDelete.getId());
+			service.deleteById(obj.getId());
+			return new ResponseEntity<>(obj, HttpStatus.GONE);
 		} catch (EmptyResultDataAccessException e) {
-			log.info("Errore nell'eliminazione!");
+			log.info("User non esiste!");
 		}
 		return new ResponseEntity(HttpStatus.OK);
 	}
 
 //	ELIMINA PER ID
 	@DeleteMapping("/{id}")
-	@PreAuthorize("hasRole('SYSADMIN')")
 	public ResponseEntity<?> delete(@PathVariable Long id) {
 		try {
-			deviceTypeService.deleteById(id);
+			service.deleteById(id);
+			return new ResponseEntity<>(HttpStatus.GONE);
 		} catch (EmptyResultDataAccessException e) {
-			log.info("Nessun device trovato con id: " + id);
+			log.info("User con id: " + id + " non esistente!");
 		}
 		return new ResponseEntity(HttpStatus.OK);
 	}
-
 }

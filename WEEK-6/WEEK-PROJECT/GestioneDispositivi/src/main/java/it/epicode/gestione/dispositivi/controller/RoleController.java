@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.controller;
+package it.epicode.gestione.dispositivi.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import it.epicode.gestione.dispositivi.exception.GestioneDispositiviException;
 import it.epicode.gestione.dispositivi.models.Role;
-import it.epicode.mobilemonitoring.service.RoleService;
+import it.epicode.gestione.dispositivi.service.RoleService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController

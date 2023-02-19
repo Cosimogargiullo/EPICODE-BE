@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.service;
+package it.epicode.gestione.dispositivi.service;
 
 import java.util.Optional;
 
@@ -8,7 +8,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import it.epicode.gestione.dispositivi.exception.GestioneDispositiviException;
 import it.epicode.gestione.dispositivi.models.User;
-import it.epicode.mobilemonitoring.repository.UserRepository;
+import it.epicode.gestione.dispositivi.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

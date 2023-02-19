@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.service;
+package it.epicode.gestione.dispositivi.service;
 
 import java.util.List;
 

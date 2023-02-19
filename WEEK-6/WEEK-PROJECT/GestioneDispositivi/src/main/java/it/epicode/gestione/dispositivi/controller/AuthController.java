@@ -1,4 +1,4 @@
-package it.epicode.mobilemonitoring.controller;
+package it.epicode.gestione.dispositivi.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import it.epicode.mobilemonitoring.common.security.JwtUtils;
-import it.epicode.mobilemonitoring.common.security.UserDetailsImpl;
-import it.epicode.mobilemonitoring.common.security.login.LoginRequest;
-import it.epicode.mobilemonitoring.common.security.login.LoginResponse;
+import it.epicode.gestione.dispositivi.common.security.JwtUtils;
+import it.epicode.gestione.dispositivi.common.security.UserDetailsImpl;
+import it.epicode.gestione.dispositivi.common.security.login.LoginRequest;
+import it.epicode.gestione.dispositivi.common.security.login.LoginResponse;
 
 @RestController
 public class AuthController {
