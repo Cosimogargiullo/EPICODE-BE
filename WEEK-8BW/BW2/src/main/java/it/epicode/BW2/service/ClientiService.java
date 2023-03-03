@@ -23,7 +23,6 @@ public class ClientiService {
 	
 	public List<BeServiceClienti> sortByName(){
 		return cr.sortByNomeContatto();
-//		return cr.findAll(Sort.by(Sort.Direction.ASC, "nomeContatto"));
 	}
 	
 	public List<BeServiceClienti> findClients(){

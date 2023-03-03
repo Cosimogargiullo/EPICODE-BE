@@ -41,57 +41,51 @@ public class Bw2Application implements CommandLineRunner {
 
 	@Autowired
 	BeServiceRoleRepository rr;
-	
+
 	@Autowired
 	BeServiceUserRepository ur;
-	
+
 	@Autowired
 	PasswordEncoder pe;
-	
+
 	BeServiceImportProvince service;
-	
+
 	BeServiceImportComuni serviceC;
-	
+
 	@Autowired
 	BeServiceImportProvinceRepo br;
-	
+
 	@Autowired
 	BeServiceImportProvinceService bs;
-	
+
 	@Autowired
 	BeServiceComuniRepo bsr;
-	
+
 	@Autowired
 	ClientiRepo cr;
-	
+
 	@Autowired
 	ClientiService cs;
-	
+
 	@Autowired
 	FattureService fs;
 
 	public static void main(String[] args) {
 		SpringApplication.run(Bw2Application.class, args);
-		
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		//cs.filterByDataInserimento(Date.);
-//		boolean populate = false;
-//		if(populate) {
-//			List<BeServiceRole> role = rr.findAll();
-//			initUser(role);
-//		}
-//		
+
+//		List<BeServiceRole> role = rr.findAll();
+//		initUser(role);
+
 //		caricaListaProvince();
 //		caricaListaComuni();
 		System.out.println("test");
 	}
 
 	public static final String FILE_PATH = "province-italiane.csv";
-	
-	
 
 	private List<BeServiceImportProvince> listProvince = new ArrayList<>();
 
@@ -103,9 +97,7 @@ public class Bw2Application implements CommandLineRunner {
 
 		int count = 0;
 
-		lineReader.readLine(); // skip header line
-		
-		//service = new BeServiceImportProvince();
+		lineReader.readLine();
 
 		while ((lineText = lineReader.readLine()) != null) {
 			String[] data = lineText.split(";");
@@ -113,59 +105,36 @@ public class Bw2Application implements CommandLineRunner {
 			service.setSigla(data[0]);
 			service.setNome(data[1]);
 			service.setRegione(data[2]);
-			System.out.println(data[0]+data[1]+data[2]);
+			System.out.println(data[0] + data[1] + data[2]);
 			br.save(service);
 		}
 
 		lineReader.close();
 
 	}
-	
+
 	public void caricaListaComuni() throws IOException {
 		File file = new File(FILE_PATH);
-		
+
 		BufferedReader lineReader = new BufferedReader(new FileReader(FILE_PATH));
 		String lineText = null;
-		
+
 		int count = 0;
-		
-		lineReader.readLine(); // skip header line
-		
-		//service = new BeServiceImportProvince();
-		
+
+		lineReader.readLine();
+
 		while ((lineText = lineReader.readLine()) != null) {
 			String[] data = lineText.split(";");
 			serviceC = new BeServiceImportComuni();
 			serviceC.setCodiceProvincia(data[0]);
 			serviceC.setProgressivoComune(data[1]);
 			serviceC.setNomeComune(data[2]);
-			//serviceC.setNomeProvincia(data[3]);
 			bsr.save(serviceC);
 		}
-		
+
 		lineReader.close();
-		
-		
 	}
 
-	private List<BeServiceRole> initRole() {
-		List<BeServiceRole> result = new ArrayList<BeServiceRole>();
-		BeServiceRole role = new BeServiceRole();
-		role.setRoleName("ROLE_ADMIN");
-		rr.save(role);
-		result.add(role);
-		System.out.println("Saved Role: " + role.getRoleName());
-
-		
-		role = new BeServiceRole();
-		role.setRoleName("ROLE_USER");
-		rr.save(role);
-		result.add(role);
-		System.out.println("Saved Role: " + role.getRoleName());
-
-		return result;
-	}
-//	
 	private BeServiceUser initUser(List<BeServiceRole> roles) {
 		BeServiceUser user = new BeServiceUser();
 		user.setId(3L);
@@ -176,14 +145,10 @@ public class Bw2Application implements CommandLineRunner {
 		user.setPassword(pe.encode("test"));
 		user.setBeServiceRoles(roles);
 		ur.save(user);
-		
-		
-		
-		
+
 		System.out.println("Saved User: " + user.getNome());
 
 		return user;
 	}
-	
 
 }
