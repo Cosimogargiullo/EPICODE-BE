@@ -25,6 +25,7 @@ import { LoginComponent } from './login/login.component';
 import { AuthInterceptor } from './auth.interceptor';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FattureComponent } from './fatture/fatture.component';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { FattureComponent } from './fatture/fatture.component';
     MdbValidationModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AuthModule
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS,
